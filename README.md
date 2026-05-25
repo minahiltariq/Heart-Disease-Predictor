@@ -44,21 +44,19 @@ Oldpeak
 ST Slope
 
 Application Tabs
+
 1️ Predict
-
 Users can enter patient medical information manually and get:
-
 Heart disease risk percentage
 Final prediction (High Risk / Low Risk)
 Predictions from all ML models
+
 2️ Bulk Predict
-
 Upload a CSV file with patient data to:
-
 Predict multiple patients at once
 Download prediction results as CSV
-3️ Model Info
 
+3️ Model Info 
 Displays model accuracy comparison using charts.
 
 Install Dependencies
