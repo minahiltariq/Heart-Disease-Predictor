@@ -22,11 +22,49 @@ A Machine Learning-based "Heart Disease Prediction System" built using "Python, 
 - Plotly
 - Pickle
 
-Model Used
+Machine Learning Model Used
 
 - LogisticRegression
 - DecisionTree
 - RandomForest
+
+Input Features
+The model predicts heart disease using the following 11 medical attributes:
+
+Age
+Sex
+Chest Pain Type
+Resting Blood Pressure
+Cholesterol
+Fasting Blood Sugar
+Resting ECG
+Maximum Heart Rate
+Exercise-Induced Angina
+Oldpeak
+ST Slope
+
+Application Tabs
+1️ Predict
+
+Users can enter patient medical information manually and get:
+
+Heart disease risk percentage
+Final prediction (High Risk / Low Risk)
+Predictions from all ML models
+2️ Bulk Predict
+
+Upload a CSV file with patient data to:
+
+Predict multiple patients at once
+Download prediction results as CSV
+3️ Model Info
+
+Displays model accuracy comparison using charts.
+
+Install Dependencies
+pip install -r requirements.txt
+Run Streamlit App
+streamlit run app.py
   
  Project Structure
 
@@ -38,3 +76,7 @@ Heart-Disease-Prediction/
 │── RandomForest.pkl
 │── requirements.txt
 │── README.md
+
+
+Author
+Minahil Tariq
