@@ -1,3 +1,7 @@
+<img width="1847" height="848" alt="image" src="https://github.com/user-attachments/assets/ccfcb849-3f40-43df-afcd-a22eb9029e4e" />
+
+
+ 
  Heart Disease Prediction System
 
 A Machine Learning-based "Heart Disease Prediction System" built using "Python, Streamlit, and Machine Learning algorithms". This project predicts the risk of heart disease using patient health parameters and provides both "single patient prediction" and "bulk CSV prediction" functionality.
